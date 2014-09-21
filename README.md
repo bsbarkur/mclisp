@@ -8,11 +8,11 @@ This is an on-going implementation of the lisp evaluator as explained in McCarth
 TODO:
 ====
 Test cases this passes:
-(QUOTE A)
+`(QUOTE A) 
 (QUOTE (A B C))
 (CAR (QUOTE (A B C)))
 (CDR (QUOTE (A B C)))
-(CONS (QUOTE A) (QUOTE (B C)))
+(CONS (QUOTE A) (QUOTE (B C)))`
 
 Test cases to implement:
 (EQUAL (CAR (QUOTE (A B))) (QUOTE A))
