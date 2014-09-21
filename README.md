@@ -9,7 +9,7 @@ TODO:
 ====
 Test cases this passes:
 
-`(QUOTE A)
+(QUOTE A)
  
 (QUOTE (A B C))
 
@@ -17,7 +17,7 @@ Test cases this passes:
 
 (CDR (QUOTE (A B C)))
 
-(CONS (QUOTE A) (QUOTE (B C)))`
+(CONS (QUOTE A) (QUOTE (B C)))
 
 Test cases to implement:
 
